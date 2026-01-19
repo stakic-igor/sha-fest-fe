@@ -3,6 +3,6 @@
 </script>
 <template>
     <section>
-        &copy; Sha Festival | {{ dayjs().year() }}
+        &copy;{{ dayjs().year() }} - Sha Festival
     </section>
 </template>
