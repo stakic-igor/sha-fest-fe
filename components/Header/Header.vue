@@ -1,5 +1,5 @@
 <template>
     <header>
-    Header component
-</header>
+        <Navigation />
+    </header>
 </template>
