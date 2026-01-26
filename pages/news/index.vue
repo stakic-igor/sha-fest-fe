@@ -2,6 +2,7 @@
 useHead({
     title: 'Novosti'
 })
+
 </script>
 <template>
     <div>

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import NewsSection from '~/components/News/NewsSection/NewsSection.vue';
+
 
 useHead({
   title: 'Home Page',
@@ -10,6 +12,7 @@ useHead({
   <main>
     <h1>Home Page</h1>
     <HomeHero />
+    <NewsSection />
   </main>
 </template>
 
