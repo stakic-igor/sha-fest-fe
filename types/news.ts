@@ -6,4 +6,10 @@ export interface NewsItem {
     content: {
         rendered: string;
     };
+    acf: {
+        img: string;
+        "img-alt": string;
+        description: string;
+    }
+    date: string;
 }

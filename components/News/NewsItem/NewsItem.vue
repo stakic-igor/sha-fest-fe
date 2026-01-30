@@ -1,8 +1,9 @@
 <script lang="ts" setup>
+import type { NewsItem } from '~/types/news';
 import dayjs from 'dayjs';
 
 defineProps<{
-    item: any
+    item: NewsItem
 }>();
 
 </script>

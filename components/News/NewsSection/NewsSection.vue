@@ -1,9 +1,8 @@
 <script lang="ts" setup>
 
-const { data } = await useFetch(`http://localhost/shafest/wp-json/wp/v2/news`, {
-    method: 'GET'
-});
+const { data } = await useFetch('/api/news');
 
+console.log(data);
 </script>
 
 <template>

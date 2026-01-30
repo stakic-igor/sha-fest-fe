@@ -3,9 +3,7 @@ import { type NewsItem } from '~/types/news';
 
 const route = useRoute();
 
-const { data } = await useFetch<NewsItem>(`http://localhost/shafest/wp-json/wp/v2/news/${route.params.id}`, {
-    method: 'GET'
-});
+const { data } = await useFetch<NewsItem>(`/api/news/${route.params.id}`);
 
 </script>
 <template>
