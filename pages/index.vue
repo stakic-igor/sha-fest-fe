@@ -12,7 +12,7 @@ useHead({
   <main>
     <h1>Home Page</h1>
     <HomeHero />
-    <NewsSection />
+    <NewsSection :limit-news-items="2" :unlimited="false" />
   </main>
 </template>
 
