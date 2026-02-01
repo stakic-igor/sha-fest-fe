@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { S } from 'vue-router/dist/router-CWoNjPRp.mjs';
+
 
 </script>
 <template>
@@ -10,5 +12,6 @@
             <li class="hover:underline"><NuxtLink to="/blog">Blog</NuxtLink></li>
             <li class="hover:underline"><NuxtLink to="/about">About</NuxtLink></li>
         </ul>
+        <SocialNetwork />
     </nav>
 </template>
