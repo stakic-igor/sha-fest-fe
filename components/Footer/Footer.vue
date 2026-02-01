@@ -4,6 +4,7 @@
 
 <template>
     <footer>
+        <SocialNetworks layout="vertical" />
         Footer component
         <Copyright />
     </footer>
