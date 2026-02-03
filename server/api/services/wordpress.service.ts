@@ -7,5 +7,9 @@ export const wordpressService = {
 
     async getSingleNews(id: number) {
         return await $fetch(`${this.baseUrl}/news/${id}`);
+    },
+
+    async getBlogPosts() {
+        return await $fetch(`${this.baseUrl}/blog`);
     }
 }
